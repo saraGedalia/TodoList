@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PracticeCode\\\u200F\u200FTodoApi\\c#\\",
+  "WorkspaceRootPath": "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BD1692A-343B-443F-A84A-32206A205548}|TodoApi.csproj|d:\\practicecode\\\u200F\u200Ftodoapi\\c#\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4BD1692A-343B-443F-A84A-32206A205548}|TodoApi.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{4BD1692A-343B-443F-A84A-32206A205548}|TodoApi.csproj|d:\\practicecode\\todoapiwithgit\\todolistserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD1692A-343B-443F-A84A-32206A205548}|TodoApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD1692A-343B-443F-A84A-32206A205548}|TodoApi.csproj|d:\\practicecode\\\u200F\u200Ftodoapi\\c#\\todoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4BD1692A-343B-443F-A84A-32206A205548}|TodoApi.csproj|solutionrelative:todoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4BD1692A-343B-443F-A84A-32206A205548}|TodoApi.csproj|d:\\practicecode\\todoapiwithgit\\todolistserver\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD1692A-343B-443F-A84A-32206A205548}|TodoApi.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD1692A-343B-443F-A84A-32206A205548}|TodoApi.csproj|d:\\practicecode\\todoapiwithgit\\todolistserver\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD1692A-343B-443F-A84A-32206A205548}|TodoApi.csproj|solutionrelative:tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TodoApi",
-              "DocumentMoniker": "D:\\PracticeCode\\\u200F\u200FTodoApi\\c#\\TodoApi.csproj",
-              "RelativeDocumentMoniker": "TodoApi.csproj",
-              "ToolTip": "D:\\PracticeCode\\\u200F\u200FTodoApi\\c#\\TodoApi.csproj",
-              "RelativeToolTip": "TodoApi.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-05T08:33:21.303Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\Item.cs",
+              "RelativeToolTip": "Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T10:30:00.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDoDbContext.cs",
+              "DocumentMoniker": "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\ToDoDbContext.cs",
+              "RelativeDocumentMoniker": "ToDoDbContext.cs",
+              "ToolTip": "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\ToDoDbContext.cs",
+              "RelativeToolTip": "ToDoDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T10:29:53.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\PracticeCode\\\u200F\u200FTodoApi\\c#\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "D:\\PracticeCode\\\u200F\u200FTodoApi\\c#\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-05T08:35:52.178Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T10:03:57.239Z",
               "EditorCaption": ""
             }
           ]

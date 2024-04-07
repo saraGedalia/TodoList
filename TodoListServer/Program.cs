@@ -15,11 +15,11 @@ builder =>
 }));
 
 var app = builder.Build();
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//if (app.Environment.IsDevelopment())
+//{
+app.UseSwagger();
+app.UseSwaggerUI();
+//}
 
 app.MapGet("/", async (ToDoDbContext DbContext) =>
 {
@@ -61,5 +61,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 app.UseCors("AllowAll");
+
+app.MapGet("/" , ()=> "TodoApiServer API is running");
 
 app.Run();
