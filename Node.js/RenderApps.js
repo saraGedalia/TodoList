@@ -10,6 +10,7 @@ async function getRenderApps() {
                 'authorization': `Bearer ${apiKey}`
             }
         });
+        
         return response.data;
     } catch (error) {
         console.error(error);
