@@ -71,7 +71,7 @@ app.MapGet("/items",  (ToDoDbContext db) =>
 //הוספה
 app.MapPost("/{name}", async (String name, ToDoDbContext DbContext) =>
 {
-     Items i = new Items();
+    Items i = new Items();
     i.Name = name;
     i.IsComplete = false;
     DbContext.Items.Add(i);

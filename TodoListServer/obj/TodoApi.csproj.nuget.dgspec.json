@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Server\\TodoApi\\TodoApi.csproj": {}
+    "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\TodoApi.csproj": {}
   },
   "projects": {
-    "E:\\Server\\TodoApi\\TodoApi.csproj": {
+    "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Server\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "E:\\Server\\TodoApi\\TodoApi.csproj",
+        "projectPath": "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
-        "outputPath": "E:\\Server\\TodoApi\\obj\\",
+        "outputPath": "D:\\PracticeCode\\TodoApiWithGit\\TodoListServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

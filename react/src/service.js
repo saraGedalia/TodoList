@@ -1,5 +1,5 @@
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:5260';
+axios.defaults.baseURL = process.env.REACT_APP_API_KEY ;
 
 axios.interceptors.request.use(
   (config) =>
@@ -19,8 +19,9 @@ axios.interceptors.response.use(
 );
 
 export default {
+  
   getTasks: async () => {
-    const result = await axios.get(``)
+    const result = await axios.get(`items`)
     return result.data;
   },
 
